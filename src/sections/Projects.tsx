@@ -1,7 +1,4 @@
-import { Section } from "@/components/Section";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { ExternalLink, Code2 } from "lucide-react";
+
 import { motion } from "framer-motion";
 import CircularGallery from "@/components/ui/react-bits/CircularGallery";
 import BorderGlow from "@/components/ui/react-bits/BorderGlow";
