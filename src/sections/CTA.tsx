@@ -25,7 +25,7 @@ export function CTA() {
     const PUBLIC_KEY = "-JtC18JZmYI4yEIpU";
 
     emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
-      .then((result) => {
+      .then(() => {
           setStatus("success");
           form.current?.reset();
       }, (error) => {
